@@ -8,28 +8,21 @@ This is a console application to generate excel report, based on given data.
 
 Before running this project, you need to install following:
 
-- .net core 3.1 [https://dotnet.microsoft.com/download/dotnet/3.1]
+- [.NET Core 3.1](https://dotnet.microsoft.com/download/dotnet/3.1)
+- Visual Studio 2019
 
 ### How to Run
 
-1.
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/amueed/ReportingService.git
    ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
-   ```
+2. Open 'ReportingService.sln' in VS 2019 and Build Solution
 
-<!-- USAGE EXAMPLES -->
+3. Set 'ReportingService.ConsoleApp' as startup project under '4 - Apps' folder in Solution Explorer View.
 
-## Usage
+4. Run Project
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+### Output
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+Output of the project will be generated in App_Data folder or a Full path will be printed in console window.
